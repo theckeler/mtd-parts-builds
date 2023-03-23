@@ -1,7 +1,7 @@
 import React from "react";
 import jsonData from "./data/customerservice.json";
 import "../../scss/main.scss";
-import "../../scss/customerservice.scss";
+import "./scss/customerservice.scss";
 
 import Button from "../elements/Button";
 import SupportModel from "../elements/SupportModel";

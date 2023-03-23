@@ -11,15 +11,21 @@ const Home = () => {
 				display: "flex",
 				flexDirection: "column",
 				justifyContent: "center",
-				alignItems: "center",
+				//	alignItems: "center",
 			}}>
-			<h1 style={{ textTransform: "uppercase" }}>TB Page Builds:</h1>
-			<ul className="home-list">
+			<h1 style={{ textTransform: "uppercase" }}>MTD Parts Page Builds:</h1>
+			<ul className="home-list  w-100">
 				<li>
 					<Link to="/customer-service">Customer Service</Link>
 				</li>
-				<li className="mt-2">
-					<Link to="/gift-guide">Gift Guide</Link>
+
+				<li>
+					<a
+						href="https://mtdparts.consumedesign.com/"
+						target="_blank"
+						rel="noreferrer">
+						Full Site Redo
+					</a>
 				</li>
 			</ul>
 		</div>
