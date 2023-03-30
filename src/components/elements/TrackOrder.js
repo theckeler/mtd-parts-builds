@@ -9,10 +9,10 @@ const TrackOrder = ({ title, sub, addClass, addStyle }) => {
 				Looking to track your order? Look no further! Simply click below to get
 				started and stay up-to-date on the whereabouts of your purchase.
 			</p>
-			<p className="mt-auto">
+			<p className="">
 				<Button
 					copy="Track My Order"
-					url="https://www.troybilt.com/en_US/track-my-order"
+					url="https://www.mtdparts.com/en_US/track-my-order"
 					addClass="btn btn-block btn-secondary mt-auto"
 				/>
 			</p>
