@@ -172,18 +172,18 @@ const App = () => {
 						{jsonData.section6.blocks.map((block, i) => {
 							return (
 								<li
-									className="flex flex-column col-12 col-sm-12 col-md-6 col-lg-3 p-1"
+									className="flex flex-column h-100 col-12 col-sm-12 col-md-6 col-lg-3 p-1"
 									key={i}>
 									<a
 										href={block.url}
 										className="flex flex-column p-3 h-100 text-decoration-none justify-content-center">
+										<img src={block.img} alt="mt-auto" />
 										<h3
-											className="text-center mt-4 mb-0"
+											className="text-center mb-0 mt-2"
 											dangerouslySetInnerHTML={{
 												__html: block.title,
 											}}
 										/>
-										<img src={block.img} alt="" />
 									</a>
 								</li>
 							);
@@ -210,7 +210,7 @@ const App = () => {
 									<span className="icon mr-1">
 										<IconPhone />
 									</span>
-									800-828-5500
+									855-971-2271
 								</button>
 							</div>
 						</li>
@@ -232,5 +232,6 @@ const App = () => {
 		</div>
 	);
 };
+
 
 export default App;

@@ -24,7 +24,7 @@ const SupportModel = ({ title, sub, addClass, addStyle }) => {
 
 			<div className="mt-3">
 				<img
-					src="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-Library/default/dwf746b099/Model-Plates/Find_Model_Number_Troy_Bilt.jpg"
+					src="https://www.mtdparts.com/on/demandware.static/-/Sites-mtdparts-Library/default/dw81188c99/Model-Plates/Web/Find_Model_Number_MTD.jpg"
 					alt=""
 					className="ml-auto mr-auto"
 				/>
