@@ -179,7 +179,7 @@ const App = () => {
 										className="flex flex-column p-3 h-100 text-decoration-none justify-content-center">
 										<img src={block.img} alt="mt-auto" />
 										<h3
-											className="text-center mb-0 mt-2"
+											className="text-center mb-0 mt-2 fw-bold"
 											dangerouslySetInnerHTML={{
 												__html: block.title,
 											}}
@@ -232,6 +232,5 @@ const App = () => {
 		</div>
 	);
 };
-
 
 export default App;
