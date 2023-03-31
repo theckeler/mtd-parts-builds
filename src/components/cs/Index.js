@@ -16,6 +16,7 @@ import { ReactComponent as IconManuals } from "../../images/icon-manuals.svg";
 import { ReactComponent as IconMagGlassBolt } from "../../images/icon-mag-glass-bolt.svg";
 import { ReactComponent as IconPhone } from "../../images/icon-phone.svg";
 import { ReactComponent as IconChat } from "../../images/icon-chat.svg";
+import { ReactComponent as IconOil } from "../../images/oil.svg";
 
 const App = () => {
 	const IconMap = {
@@ -26,6 +27,7 @@ const App = () => {
 		iconScrewdriverWrench: IconScrewdriverWrench,
 		iconManuals: IconManuals,
 		iconMagGlassBolt: IconMagGlassBolt,
+		iconOil: IconOil,
 	};
 
 	return (
@@ -58,7 +60,7 @@ const App = () => {
 										className="flex flex-column p-6 h-100 text-decoration-none bg-grey justify-content-center">
 										<div
 											className="icon w-75 mx-auto flex flex-column justify-content-center"
-											style={{ minHeight: "130px" }}>
+											style={{ minHeight: "130px", maxHeight: "160px" }}>
 											<ComponentName />
 										</div>
 										<p
