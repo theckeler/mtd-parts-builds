@@ -38,7 +38,7 @@
 	},
 	"section4": {
 		"h2": "Don't have an account?",
-		"copy": "Find information related to your mower with ease when you <a href=\"https://www.mtdparts.com/en_US/login\" class=\"link-white\">create an account</a> and <a href=\"https://www.troybilt.com/en_US/registration.html\" class=\"link-white\">register your mower</a>. Benefits include: Proof of purchase for insurance, find warranty information, view safety information and get timely maintenance reminders."
+		"copy": "Find information related to your mower with ease when you <a href=\"https://www.mtdparts.com/en_US/login\" class=\"link-white\">create an account</a> and <a href=\"https://www.mtdparts.com/en_US/registration.html\" class=\"link-white\">register your mower</a>. Benefits include: Proof of purchase for insurance, find warranty information, view safety information and get timely maintenance reminders."
 	},
 	"section5": {
 		"h2": "Popular Help Links",
@@ -54,7 +54,7 @@
 			{
 				"img": "iconManuals",
 				"copy": "Use your model number to download your Operator’s Manual",
-				"url": "https://www.troybilt.com/en_US/operatorsmanuals",
+				"url": "https://www.mtdparts.com/en_US/operatorsmanuals",
 				"button": {
 					"copy": "Find manuals"
 				}
@@ -70,7 +70,7 @@
 			{
 				"img": "iconAward",
 				"copy": "Register your Troy-Bilt equipment",
-				"url": "https://www.troybilt.com/en_US/registration.html",
+				"url": "https://www.mtdparts.com/en_US/registration.html",
 				"button": {
 					"copy": "Registration"
 				}
@@ -98,7 +98,7 @@
 			{
 				"img": "https://www.mtdparts.com/on/demandware.static/-/Sites-mtdparts-Library/default/dw0fe950b5/knowledge-center/images-mtdparts-com/Safety/Self-Propelled-Mower-Safety-Lawn-Mower-Tips.png",
 				"title": "General Advice & Tips",
-				"url": "https://www.troybilt.com/en_US/tillers/"
+				"url": "https://www.mtdparts.com/en_US/general-advice.html"
 			}
 		]
 	},
