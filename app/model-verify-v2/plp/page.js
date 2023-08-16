@@ -39,58 +39,55 @@ export default function ModelVerifyV2PLP() {
 				</div>
 			</div>
 
-			<div className="container">
-				<div className="row">
-					<div className="col-12">
-						<div className="search-breadcrumb">
-							<div className="row">
-								<div className="col">
-									<ol className="breadcrumb">
-										<li className="breadcrumb-item">
-											<a href="/en_US/service-and-parts">Service &amp; Parts</a>
-										</li>
-										<li className="breadcrumb-item">
-											<a href="/en_US/service-and-parts/shop-by-part-type">
-												Shop By Part Type
-											</a>
-										</li>
-										<li className="breadcrumb-item">
-											<a href="/en_US/shop-by-part-type/blades">Blades</a>
-										</li>
-									</ol>
-								</div>
+			<div className="search-banner">
+				<h1 className="header h2 cat-page-title container">Blades</h1>
+				<div class="seo-text container">
+					<p>
+						MTD Parts has the mower blades, including three-in-one blades and
+						mulching blades, you need for outdoor power equipment. You don't
+						want to be slowed down by an old, dull blade, so shop with us for
+						all your replacement blades and quickly get back to maintaining your
+						lawn. Can't find the blade you need? Use our{" "}
+						<a href="https://www.mtdparts.com/en_US/ari-partstream.html">
+							Parts Diagrams Tool
+						</a>{" "}
+						to lookup the blade for your specific machine.
+					</p>
+					<div class="sub-cat mt-4">
+						<div class="row">
+							<div class="col-md-4">
+								<h4>
+									<a
+										class="btn btn-primary"
+										href="https://www.mtdparts.com/en_US/riding-lawn-mower-parts/riding-mower-blades">
+										Shop Riding Mower Blades
+									</a>
+								</h4>
+							</div>
+							<div class="col-md-4">
+								<h4>
+									<a
+										class="btn btn-primary"
+										href="https://www.mtdparts.com/en_US/walk-behind-lawn-mower-parts/walk-behind-lawn-mower-blades">
+										Shop Push Mower Blades
+									</a>
+								</h4>
+							</div>
+							<div class="col-md-4">
+								<h4>
+									<a
+										class="btn btn-primary"
+										href="https://www.mtdparts.com/en_US/edger-trimmer-and-leaf-blower-parts/lawn-edger-blades">
+										Shop Lawn Edger Blades
+									</a>
+								</h4>
 							</div>
 						</div>
 					</div>
+					<hr />
 				</div>
 			</div>
-			<div className="search-banner">
-				<h1 className="header h2 cat-page-title container">Blades</h1>
-				<div className="seo-text container">
-					<p>
-						<img
-							alt="troy-bilt-lawn-mower-blades"
-							src="https://www.troybilt.com/on/demandware.static/-/Sites-troybilt-sales-catalog/default/dw97e58d6b/Part%20Category%20Headers/parts_headers_blades.jpg"
-							title="Genuine Troy-Bilt Lawn Mower Blades"
-						/>
-					</p>
-					<br />
-					<p>
-						Troy-Bilt has the lawn mower blade you&apos;re looking for,
-						including three-in-one blades, high-lift and mulching blades. Use
-						our
-						<a href="https://www.troybilt.com/en_US/service-and-parts#diagrams">
-							Parts Diagram Tool
-						</a>
-						&nbsp;to look up the blade for your Troy-Bilt or our
-						<a href="https://www.troybilt.com/on/demandware.store/Sites-troybilt-Site/en_US/Page-Show?cid=part-finder">
-							Part Finder
-						</a>
-						&nbsp;to make sure you&apos;re getting the right blade for your
-						machine.
-					</p>
-				</div>
-			</div>
+
 			<div className="container search-results" data-dynosite="false">
 				<div className="row search-nav border-0"></div>
 				<div className="row">
@@ -114,13 +111,15 @@ export default function ModelVerifyV2PLP() {
 								<div className="col-6 col-lg-8">
 									<button
 										type="button"
-										className="btn btn-filter filter-results col-12 d-md-none">
+										className="flex btn btn-filter col-12 d-md-none text-white"
+										style={{ backgroundColor: "#199422", textAlign: "left" }}>
 										Filter By
-										<i>
+										<i className="pl-2 ml-auto">
 											<img
 												className="icon icon-filter "
-												src="https://www.troybilt.com/on/demandware.static/Sites-troybilt-Site/-/default/dwcc0347ec/images/svg-icons/icon-filter.svg"
+												src="https://www.mtdparts.com/on/demandware.static/Sites-mtdparts-Site/-/default/dw29238e86/images/svg-icons/filter-icon.svg"
 												alt=""
+												style={{ width: "16px", height: "16px" }}
 											/>
 										</i>
 									</button>
