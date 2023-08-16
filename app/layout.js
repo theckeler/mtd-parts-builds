@@ -3,7 +3,7 @@ import Header from "@/t/Header";
 import "@/scss/main.scss";
 
 export const metadata = {
-	title: "Troybuilt Builds",
+	title: "MTD Parts Builds",
 	description: "Nothing to see here",
 };
 
