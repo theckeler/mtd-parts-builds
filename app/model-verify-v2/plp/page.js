@@ -84,7 +84,7 @@ export default function ModelVerifyV2PLP() {
 							</div>
 						</div>
 					</div>
-					<hr />
+					<hr className="d-none d-md-block" />
 				</div>
 			</div>
 
