@@ -1,0 +1,62 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[13].use[5]!./scss/main.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.position-relative.position-lg-absolute,
+.position-lg-absolute {
+  position: absolute !important;
+}
+
+@media (min-width: 1024px) {
+  .position-absolute.position-lg-relative,
+  .position-lg-relative {
+    position: relative !important;
+  }
+  .position-lg-absolute {
+    position: absolute !important;
+  }
+  .border-lg-right {
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+  .w-lg-500 {
+    width: 500px;
+  }
+  .text-lg-white {
+    color: #fff !important;
+  }
+  .text-lg-white a {
+    color: #fff !important;
+  }
+  .text-lg-black {
+    color: #000 !important;
+  }
+  .text-lg-black a {
+    color: #000 !important;
+  }
+  .bg-lg-transparant,
+  .bg-white.bg-lg-transparant {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+  .bg-lg-black {
+    background: #000 !important;
+    background-color: #000 !important;
+  }
+  .border-md-right {
+    border-right: 1px solid #d1d3d4;
+  }
+}
+@media (min-width: 768px) {
+  .position-md-absolute {
+    position: absolute !important;
+  }
+  .top-md-50 {
+    top: 50% !important;
+  }
+  .left-md-0 {
+    left: 0 !important;
+  }
+  .transform-50-50 {
+    transform: translate(-50%, -50%);
+  }
+}
