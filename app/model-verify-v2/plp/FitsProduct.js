@@ -7,7 +7,7 @@ export default function FitsProduct({
 }) {
 	return (
 		<div className={` ${className}`}>
-			{results && (
+			{/* {results && (
 				<ul className="list-unstyled d-flex align-items-center mt-2">
 					<li>
 						<div
@@ -24,7 +24,7 @@ export default function FitsProduct({
 						)}
 					</li>
 				</ul>
-			)}
+			)} */}
 		</div>
 	);
 }

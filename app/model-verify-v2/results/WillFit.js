@@ -5,7 +5,7 @@ export default function WillFit() {
 		<div className="part-fitment-wrapper pdp text-center ">
 			<div className="part-fitment-icon pdp w-100 mb-1 mb-md-0 verified" />
 			<h6 className="mb-1">
-				<div className="content-asset" style={{ fontSize: "0.9em" }}>
+				<div className="content-asset h4 font-bold">
 					Verified, Will Fit Model
 				</div>
 			</h6>
