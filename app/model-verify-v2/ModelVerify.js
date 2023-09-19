@@ -18,7 +18,7 @@ export default function ModelVerify({ fit, inStockCheck }) {
 					{inStockCheck ? <InStock /> : <Backorder />}
 				</div>
 			</div>
-			<div className="col-md-8 px-0 border-top border-xl-top-0 mt-2 mt-sm-0 pt-2 pt-md-2">
+			<div className="col-md-8 px-2 border-top border-xl-top-0 mt-2 mt-sm-0 pt-2 pt-md-2">
 				{(() => {
 					switch (fit) {
 						case "fits":
