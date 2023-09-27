@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 					<Header />
 					<link
 						rel="stylesheet"
-						href="https://www.mtdparts.com/on/demandware.static/Sites-mtdparts-Site/-/en_US/v1692119154763/css/global.css"
+						href="https://staging.mtdparts.com/on/demandware.static/Sites-mtdparts-Site/-/en_US/v1695748141977/css/global.css"
 					/>
 
 					<link
