@@ -130,7 +130,7 @@ export default function PLP() {
 										</div>
 									</div>
 								</div>
-								<div className="order-3 order-md-1 col-6 col-md-6 part-fitment-wrapper flex align-items-end align-items-md-center pr-4">
+								<div className="order-3 order-md-1 col-6 col-md-6 part-fitment-wrapper flex align-items-end align-items-md-center pr-4 pr-xl-3">
 									<span
 										className="mr-1 d-none d-md-block"
 										style={{ whiteSpace: "nowrap" }}>
