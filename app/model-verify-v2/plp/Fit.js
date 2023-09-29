@@ -51,7 +51,7 @@ export default function Fit({ className, results, setResults }) {
 						</div>
 					</div>
 				) : (
-					<div className="part-fitment-wrapper plp">
+					<div className="part-fitment-wrapper">
 						<div className="content-asset mb-1" style={{ fontSize: "13px" }}>
 							{/* dwMarker="content" dwContentID="926dbd83f90373e3a9fa0ba683" */}
 							Enter your{" "}

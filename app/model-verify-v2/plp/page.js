@@ -41,7 +41,7 @@ export default function ModelVerifyV2PLP() {
 
 			<div className="search-banner">
 				<h1 className="header h2 cat-page-title container">Blades</h1>
-				<div class="seo-text container">
+				<div className="seo-text container">
 					<p>
 						MTD Parts has the mower blades, including three-in-one blades and
 						mulching blades, you need for outdoor power equipment. You don't
@@ -53,30 +53,30 @@ export default function ModelVerifyV2PLP() {
 						</a>{" "}
 						to lookup the blade for your specific machine.
 					</p>
-					<div class="sub-cat mt-4">
-						<div class="row">
-							<div class="col-md-4">
+					<div className="sub-cat mt-4">
+						<div className="row">
+							<div className="col-md-4">
 								<h4>
 									<a
-										class="btn btn-primary"
+										className="btn btn-primary"
 										href="https://www.mtdparts.com/en_US/riding-lawn-mower-parts/riding-mower-blades">
 										Shop Riding Mower Blades
 									</a>
 								</h4>
 							</div>
-							<div class="col-md-4">
+							<div className="col-md-4">
 								<h4>
 									<a
-										class="btn btn-primary"
+										className="btn btn-primary"
 										href="https://www.mtdparts.com/en_US/walk-behind-lawn-mower-parts/walk-behind-lawn-mower-blades">
 										Shop Push Mower Blades
 									</a>
 								</h4>
 							</div>
-							<div class="col-md-4">
+							<div className="col-md-4">
 								<h4>
 									<a
-										class="btn btn-primary"
+										className="btn btn-primary"
 										href="https://www.mtdparts.com/en_US/edger-trimmer-and-leaf-blower-parts/lawn-edger-blades">
 										Shop Lawn Edger Blades
 									</a>
