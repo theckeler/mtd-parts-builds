@@ -42,7 +42,7 @@ const ProductBlock = ({ block, addClass, addStyle }) => {
 			)}
 			{block.button && (
 				<Button
-					copy={block.button.copy}
+					title={block.button.copy}
 					addclassName="bg-red mt-auto ml-3 mr-3 mb-3 d-block text-uppercase"
 				/>
 			)}

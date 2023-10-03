@@ -41,7 +41,7 @@ const AttchmentsAccessories = ({ jsonData }) => {
 										</div>
 										<div className="mt-auto">
 											<Button
-												copy="View More"
+												title="View More"
 												url={block.url}
 												className="bg-black text-center w-100 "
 											/>

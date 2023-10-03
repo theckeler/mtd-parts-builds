@@ -154,7 +154,7 @@ const App = () => {
 											}}
 										/>
 										<Button
-											copy={block.button.copy}
+											title={block.button.copy}
 											addclassName="bg-black mt-1"
 										/>
 									</a>

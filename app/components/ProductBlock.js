@@ -84,7 +84,7 @@ const ProductBlock = ({ block, className, addCSS }) => {
 								? "bg-black text-white"
 								: block.button.bgColor
 						}`}
-						copy={
+						title={
 							typeof block.button === "undefined"
 								? "Shop Now"
 								: block.button.copy

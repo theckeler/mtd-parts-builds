@@ -20,7 +20,7 @@ const SupportModel = ({ title, sub, addClass, addStyle }) => {
 			</div>
 
 			<Button
-				copy="Find Support"
+				title="Find Support"
 				url="https://www.troybilt.com/en_US/service-and-parts"
 				addclassName="btn btn-block btn-secondary mt-auto"
 			/>

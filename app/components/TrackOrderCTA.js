@@ -15,7 +15,7 @@ const TrackOrder = ({ title, sub, className, addStyle }) => {
 			</p>
 			<p className="mt-4">
 				<Button
-					copy="Track My Order"
+					title="Track My Order"
 					url="https://www.cubcadet.com/en_US/track-my-order"
 					className="btn btn-secondary btn-pf-search mt-auto py-2 px-5 border-0 w-100"
 				/>

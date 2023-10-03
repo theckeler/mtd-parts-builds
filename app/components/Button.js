@@ -5,9 +5,9 @@ export default function Button({ title, url, className, onClick, style }) {
 		return (
 			<a
 				href={url}
-				className={`button text-uppercase font-weight-bold text-decoration-none d-inline-block ${className}`}
-				dangerouslySetInnerHTML={{ __html: copy }}
-				style={style}
+				className={`button text-uppercase font-weight-bold text-decoration-none d-inline-flex justify-content-center align-items-center ${className}`}
+				dangerouslySetInnerHTML={{ __html: title }}
+				style={{ ...style, minHeight: "48px" }}
 			/>
 		);
 	} else {

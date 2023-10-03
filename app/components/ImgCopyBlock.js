@@ -43,7 +43,7 @@ const ImgCopyBlock = ({
 				{linkable && <span className="read-more mt-auto">Read more</span>}
 				{block.button && (
 					<Button
-						copy={block.button.copy}
+						title={block.button.copy}
 						url={block.button.url}
 						className="bg-secondary align-self-start mt-auto w-100 text-center text-white"
 					/>

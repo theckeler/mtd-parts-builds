@@ -15,7 +15,7 @@ const CTABlock = ({ block }) => {
 			)}
 			<Button
 				url={block.button.url}
-				copy={block.button.copy}
+				title={block.button.copy}
 				className={block.button.className}
 			/>
 		</div>
