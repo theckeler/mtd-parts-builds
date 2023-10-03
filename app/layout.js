@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 						href="https://www.mtdparts.com/on/demandware.static/Sites-mtdparts-Site/-/en_US/v1692119154763/css/product/detail.css"
 					/>
 				</header>
-				{children}
+				<div style={{ minHeight: "200px" }}>{children}</div>
 				<footer>
 					<Footer />
 				</footer>

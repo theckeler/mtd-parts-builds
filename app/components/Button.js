@@ -1,4 +1,4 @@
-const Button = ({ copy, url, className, onClick, addStyle, srOnly }) => {
+export default function Button({ title, url, className, onClick, style }) {
 	const addPadding = { padding: "0.625rem 2.5rem" };
 
 	if (url) {
@@ -7,7 +7,7 @@ const Button = ({ copy, url, className, onClick, addStyle, srOnly }) => {
 				href={url}
 				className={`button text-uppercase font-weight-bold text-decoration-none d-inline-block ${className}`}
 				dangerouslySetInnerHTML={{ __html: copy }}
-				style={{ ...addStyle, ...addPadding }}
+				style={style}
 			/>
 		);
 	} else {
@@ -15,11 +15,9 @@ const Button = ({ copy, url, className, onClick, addStyle, srOnly }) => {
 			<button
 				onClick={onClick}
 				className={`button font-weight-bold ${className}`}
-				dangerouslySetInnerHTML={{ __html: copy }}
-				style={{ ...addStyle, ...addPadding }}
+				dangerouslySetInnerHTML={{ __html: title }}
+				style={style}
 			/>
 		);
 	}
-};
-
-export default Button;
+}
