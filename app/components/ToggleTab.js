@@ -9,7 +9,7 @@ export default function ToggleTab({ className, style, Component, id, title }) {
 				className="position-relative flex align-items-center mb-0 py-0 font-bold text-uppercase"
 				style={{ minHeight: "48px" }}>
 				<button
-					className="position-absolute w-100 h-100 d-block d-xl-none"
+					className="position-absolute w-100 h-100 d-block d-lg-none"
 					style={{ cursor: "pointer", opacity: 0 }}
 					aria-label={title}
 					onClick={() => {
@@ -30,20 +30,20 @@ export default function ToggleTab({ className, style, Component, id, title }) {
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 -960 960 960"
-					className="arrow d-block d-xl-none ml-auto rotate-180"
+					className="arrow d-block d-lg-none ml-auto rotate-180"
 					style={{ width: "32px" }}>
 					<path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" />
 				</svg>
 			</h3>
 			<hr
-				className="w-100 p-0 my-0 d-none d-xl-block"
+				className="w-100 p-0 my-0 d-none d-lg-block"
 				style={{ borderBottom: "1px solid #a8a8a8" }}
 			/>
-			<div className="d-none d-xl-block" id={`${id}-block`}>
+			<div className="d-none d-lg-block" id={`${id}-block`}>
 				{typeof Component === "object" ? Component : <Component />}
 			</div>
 			<hr
-				className="w-100 p-0 my-0 d-xl-none"
+				className="w-100 p-0 my-0 d-lg-none"
 				style={{ borderBottom: "1px solid #a8a8a8" }}
 			/>
 		</div>

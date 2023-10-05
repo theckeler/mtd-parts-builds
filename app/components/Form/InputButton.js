@@ -15,6 +15,7 @@ export default function InputButton({
 					required=""
 					type="text"
 					className={`${padding} w-100 h-100 rounded-0 border-0 ${input.className}`}
+					style={input.style}
 					id={input.id}
 					placeholder={input.placeholder}
 					name={input.name}

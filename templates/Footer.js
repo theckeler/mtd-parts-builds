@@ -8,9 +8,9 @@ import FooterLegal from "@/app/components/Footer/Footer";
 export default function Footer() {
 	const setup = {
 		ul: {
-			className: "flex flex-column flex-xl-row",
+			className: "flex flex-column flex-lg-row",
 			style: {},
-			li: { className: "col-12 col-xl-3 mt-xl-4", style: {} },
+			li: { className: "col-12 col-lg-3 mt-lg-3", style: {} },
 		},
 
 		component: {
@@ -20,7 +20,7 @@ export default function Footer() {
 				className: "",
 				style: {},
 				a: {
-					className: "d-block p-2 px-xl-0 pt-xl-1 pb-xl-0",
+					className: "d-block p-2 px-lg-0 pt-lg-1 pb-lg-0",
 					style: { color: "#000" },
 				},
 			},
@@ -39,14 +39,13 @@ export default function Footer() {
 					}
 				}
 			`}</style>
-
 			<div className="container">
 				<ul className={setup.ul.className} style={setup.ul.style}>
 					<li className={setup.ul.li.className} style={setup.ul.li.style}>
 						<FooterNoDropdown title="Home" href="/" />
 
 						<ToggleTab
-							className="mt-xl-1"
+							className="mt-lg-1"
 							style={{}}
 							id="account"
 							title="Account"
@@ -81,7 +80,7 @@ export default function Footer() {
 						/>
 
 						<ToggleTab
-							className="mt-xl-1"
+							className="mt-lg-1"
 							style={{}}
 							id="about"
 							title="About"
@@ -148,7 +147,7 @@ export default function Footer() {
 						/>
 
 						<ToggleTab
-							className="mt-xl-1"
+							className="mt-lg-1"
 							style={{}}
 							id="support"
 							title="Support"
@@ -370,7 +369,7 @@ export default function Footer() {
 						/>
 
 						<ToggleTab
-							className="mt-xl-1"
+							className="mt-lg-1"
 							href="https://www.mtdparts.com/en_US/shop-by-machine-type/walk-behind-lawn-mower-parts"
 							style={{}}
 							id="walk-mower"
@@ -832,7 +831,8 @@ export default function Footer() {
 			/>
 
 			<ul
-				className="container pt-2 pb-8 flex flex-column flex-xl-row"
+				//className="container pt-2 pb-8 flex flex-column flex-xl-row"
+				className="container pt-2 pb-8 flex flex-column"
 				style={{ gap: "1em" }}>
 				<li>
 					<BlockSignUp className="px-2" />
