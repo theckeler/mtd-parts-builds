@@ -2,14 +2,16 @@
 import Button from "@/components/Button";
 
 export default function InputButton({
+	id,
 	className,
 	input,
 	button,
 	padding = "p-3",
 	icon = null,
+	onClick,
 }) {
 	return (
-		<ul className={`flex w-100 ${className}`}>
+		<ul className={`flex w-100 ${className}`} id={id}>
 			<li style={{ flex: "1 1 auto" }}>
 				<input
 					required=""
@@ -28,6 +30,7 @@ export default function InputButton({
 					className={`w-full h-full font-bold rounded-r outline-0 border-0 whitespace-nowrap uppercase ${button.className} ${padding}`}
 					style={button.style}
 					icon={icon}
+					onClick={onClick}
 				/>
 			</li>
 		</ul>

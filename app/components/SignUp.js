@@ -71,9 +71,17 @@ export default function BlockSignUp({ className, style }) {
 						It's our mission to inspire people to care for and enjoy the
 						outdoors. Join the MTD DIY Club today and find your inspriation.
 					</p>
-					<div className="col-lg-6 pl-0">
+					<div className="pl-0">
 						<InputButton
+							onClick={(e) => {
+								e.preventDefault();
+								document.querySelector("#email-form").classList.add("d-none");
+								document
+									.querySelector("#email-success")
+									.classList.remove("d-none");
+							}}
 							{...{
+								id: "email-form",
 								className: null,
 								padding: "p-2 rounded-0",
 								input: {
@@ -91,6 +99,21 @@ export default function BlockSignUp({ className, style }) {
 								},
 							}}
 						/>
+
+						<div
+							className="d-none p-2"
+							id="email-success"
+							style={{ background: "#e5e5e5" }}>
+							<h3 className="font-bold mb-1 pb-0" style={{ fontSize: "24px" }}>
+								Success
+							</h3>
+							<strong>Thanks,</strong> lorem ipsum dolor sit amet, consectetur
+							adipiscing elit. Ut diam lectus, iaculis varius mattis ut,
+							venenatis vitae lorem. Pellentesque et fermentum mi. Nullam
+							sodales lacus massa, eu vestibulum ante pulvinar vel. Praesent in
+							porta lorem. Morbi nec volutpat dolor. Nam rhoncus pharetra
+							luctus.
+						</div>
 					</div>
 				</form>
 			</li>
