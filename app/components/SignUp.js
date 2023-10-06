@@ -65,7 +65,7 @@ export default function BlockSignUp({ className, style }) {
 						className="mb-1"
 						style={{ listStyle: "initial", paddingLeft: "40px" }}>
 						<li>10% off your first parts purchase</li>
-						<li>Weekly emails with expert tips and advice</li>
+						<li>Emails with expert tips and advice</li>
 						<li>Access to exclusive offers for DIY Club members only</li>
 					</ul>
 					{/* <p className="mb-3">
