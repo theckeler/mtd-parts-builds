@@ -2,7 +2,6 @@
 import ToggleTab from "@/components/ToggleTab";
 import React from "react";
 import FooterNoDropdown from "./NoDropdown";
-import BlockSignUp from "@/components/SignUp";
 import FooterLegal from "@/app/components/Footer/Footer";
 
 export default function Footer() {
@@ -834,9 +833,9 @@ export default function Footer() {
 				//className="container pt-2 pb-8 flex flex-column flex-xl-row"
 				className="container pt-2 pb-8 flex flex-column"
 				style={{ gap: "1em" }}>
-				<li>
+				{/* <li>
 					<BlockSignUp className="px-2" />
-				</li>
+				</li> */}
 				<li>
 					<hr
 						className="h-100 pl-1 my-0 flex"

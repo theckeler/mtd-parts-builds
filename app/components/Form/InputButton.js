@@ -11,7 +11,7 @@ export default function InputButton({
 	onClick,
 }) {
 	return (
-		<ul className={`flex w-100 ${className}`} id={id}>
+		<ul className={`list-unstyled flex w-100 ${className}`} id={id}>
 			<li style={{ flex: "1 1 auto" }}>
 				<input
 					required=""

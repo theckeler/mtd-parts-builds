@@ -42,49 +42,48 @@ export default function ModelVerifyV2PLP() {
 			<div className="search-banner">
 				<h1 className="header h2 cat-page-title container">Blades</h1>
 				<div className="seo-text container">
-					<p>
-						MTD Parts has the mower blades, including three-in-one blades and
-						mulching blades, you need for outdoor power equipment. You don't
-						want to be slowed down by an old, dull blade, so shop with us for
-						all your replacement blades and quickly get back to maintaining your
-						lawn. Can't find the blade you need? Use our{" "}
-						<a href="https://www.mtdparts.com/en_US/ari-partstream.html">
-							Parts Diagrams Tool
-						</a>{" "}
-						to lookup the blade for your specific machine.
+					<p style={{ color: "#000" }}>
+						MTD Parts offer a wide selection of belts designed for all your
+						outdoor power equipment needs. Whether you're looking for drive
+						belts for your
+						<a href="https://www.mtdparts.com/en_US/snow-blowers-snow-throwers">
+							<u>Snow Blower</u>
+						</a>
+						or deck belts for your
+						<a href="https://www.mtdparts.com/en_US/riding-lawn-mowers">
+							<u>Riding Lawn Mower</u>
+						</a>
+						, you'll find them here. Our
+						<a href="https://www.mtdparts.com/en_US/part-finder.html">
+							<u>Part Finder</u>
+						</a>
+						makes it easy to find the parts you need.
 					</p>
-					<div className="sub-cat mt-4">
-						<div className="row">
-							<div className="col-md-4">
-								<h4>
-									<a
-										className="btn btn-primary"
-										href="https://www.mtdparts.com/en_US/riding-lawn-mower-parts/riding-mower-blades">
-										Shop Riding Mower Blades
-									</a>
-								</h4>
-							</div>
-							<div className="col-md-4">
-								<h4>
-									<a
-										className="btn btn-primary"
-										href="https://www.mtdparts.com/en_US/walk-behind-lawn-mower-parts/walk-behind-lawn-mower-blades">
-										Shop Push Mower Blades
-									</a>
-								</h4>
-							</div>
-							<div className="col-md-4">
-								<h4>
-									<a
-										className="btn btn-primary"
-										href="https://www.mtdparts.com/en_US/edger-trimmer-and-leaf-blower-parts/lawn-edger-blades">
-										Shop Lawn Edger Blades
-									</a>
-								</h4>
-							</div>
-						</div>
-					</div>
-					<hr className="d-none d-md-block" />
+					<ul
+						className="list-unstyled flex flex-column flex-lg-row"
+						style={{ gap: "0.5em" }}>
+						<li className="col-12 col-lg-4 px-0">
+							<a
+								className="w-100 btn btn-primary"
+								href="https://www.mtdparts.com/en_US/riding-lawn-mower-parts/riding-mower-belts">
+								Shop Riding Mower Belts
+							</a>
+						</li>
+						<li className="col-12 col-lg-4 px-0">
+							<a
+								className="w-100 btn btn-primary"
+								href="https://www.mtdparts.com/en_US/garden-tiller-parts/tiller-and-cultivator-belts">
+								Shop Garden Tiller Belts
+							</a>
+						</li>
+						<li className="col-12 col-lg-4 px-0">
+							<a
+								className="w-100 btn btn-primary"
+								href="https://www.mtdparts.com/en_US/walk-behind-lawn-mower-parts/walk-behind-lawn-mower-belts">
+								Shop Lawn Mower Belts
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 

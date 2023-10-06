@@ -5,7 +5,10 @@ import InputButton from "@/components/Form/InputButton";
 export default function BlockSignUp({ className, style }) {
 	return (
 		<ul
-			className={className + " mb-0 flex flex-column flex-md-row bg-white p-3"}
+			className={
+				className +
+				" container mb-0 flex flex-column flex-md-row bg-white p-3 list-unstyled"
+			}
 			style={{ ...style, gap: "1em" }}>
 			<style jsx>{`
 				@media (min-width: 769px) {
