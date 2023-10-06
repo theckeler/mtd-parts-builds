@@ -7,7 +7,7 @@ export default function BlockSignUp({ className, style }) {
 		<ul
 			className={
 				className +
-				" container mb-0 flex flex-column flex-md-row bg-white p-3 list-unstyled"
+				" container mb-0 flex flex-column flex-md-row bg-white p-3 list-unstyled py-6"
 			}
 			style={{ ...style, gap: "1em" }}>
 			<style jsx>{`
@@ -52,17 +52,15 @@ export default function BlockSignUp({ className, style }) {
 					id="email-subscribe-form"
 					role="form"
 					autoComplete="on">
-					<h2 className="font-bold mb-1 " style={{ fontSize: "24px" }}>
-						What is the MTD DIY Club?
-					</h2>
+					<h1 className="font-bold mb-1">What is the MTD DIY Club?</h1>
 					<p className="mb-1">
 						The DIY Club seeks to support like-minded DIYers by providing
 						guidance in all lawn areas, and helpful advice so you can create the
-						best yard possible
+						best yard possible.
 					</p>
-					<h3 className="font-bold mb-1 pb-0" style={{ fontSize: "24px" }}>
+					<h2 className="font-bold mb-1 pb-0" style={{ fontSize: "24px" }}>
 						What do I get?
-					</h3>
+					</h2>
 					<ul
 						className="mb-1"
 						style={{ listStyle: "initial", paddingLeft: "40px" }}>
@@ -70,9 +68,21 @@ export default function BlockSignUp({ className, style }) {
 						<li>Weekly emails with expert tips and advice</li>
 						<li>Access to exclusive offers for DIY Club members only</li>
 					</ul>
-					<p className="mb-3">
+					{/* <p className="mb-3">
 						It's our mission to inspire people to care for and enjoy the
 						outdoors. Join the MTD DIY Club today and find your inspriation.
+					</p> */}
+					<h2 className="font-bold mb-1 pb-0" style={{ fontSize: "24px" }}>
+						Sign up
+					</h2>
+					<p className="mb-3">
+						By signing up you agree to receive emails from MTD Parts with news,
+						special offers, promotions and other information. You can
+						unsubscribe at any time. See our{" "}
+						<a href="https://www.stanleyblackanddecker.com/privacy-policy">
+							Privacy Policy
+						</a>{" "}
+						for further information about how your data will be processed.
 					</p>
 					<div className="pl-0">
 						<InputButton
@@ -85,7 +95,7 @@ export default function BlockSignUp({ className, style }) {
 							}}
 							{...{
 								id: "email-form",
-								className: null,
+								className: "col-12 col-xl-6 pl-0",
 								padding: "p-2 rounded-0",
 								input: {
 									id: "email-signup",
@@ -95,7 +105,7 @@ export default function BlockSignUp({ className, style }) {
 									style: { background: "#e5e5e5" },
 								},
 								button: {
-									title: "Next",
+									title: "Sign Me Up!",
 									ariaLabel: null,
 									className: "text-uppercase",
 									style: { background: "#059353", color: "#fff" },
@@ -107,15 +117,15 @@ export default function BlockSignUp({ className, style }) {
 							className="d-none p-2"
 							id="email-success"
 							style={{ background: "#e5e5e5" }}>
-							<h3 className="font-bold mb-1 pb-0" style={{ fontSize: "24px" }}>
-								Success
+							<h3 className="font-bold pb-0 mb-0" style={{ fontSize: "24px" }}>
+								You’re signed up!
 							</h3>
-							<strong>Thanks,</strong> lorem ipsum dolor sit amet, consectetur
+							{/* <strong>Thanks,</strong> lorem ipsum dolor sit amet, consectetur
 							adipiscing elit. Ut diam lectus, iaculis varius mattis ut,
 							venenatis vitae lorem. Pellentesque et fermentum mi. Nullam
 							sodales lacus massa, eu vestibulum ante pulvinar vel. Praesent in
 							porta lorem. Morbi nec volutpat dolor. Nam rhoncus pharetra
-							luctus.
+							luctus. */}
 						</div>
 					</div>
 				</form>
