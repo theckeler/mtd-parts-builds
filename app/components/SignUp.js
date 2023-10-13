@@ -64,7 +64,7 @@ export default function BlockSignUp({ className, style }) {
 					<ul
 						className="mb-1"
 						style={{ listStyle: "initial", paddingLeft: "40px" }}>
-						<li>10% off your first parts purchase</li>
+						<li>10% off your first purchase of select parts*</li>
 						<li>Emails with expert tips and advice</li>
 						<li>Access to exclusive offers for DIY Club members only</li>
 					</ul>
@@ -112,6 +112,18 @@ export default function BlockSignUp({ className, style }) {
 								},
 							}}
 						/>
+
+						<p className="mt-2" style={{ fontSize: "12px", lineHeight: 1 }}>
+							*10% off using any provided, single-use code. Discount applies to
+							select parts only, visible at mtdparts.com, and in stock. Offer
+							valid only on mtdparts.com and only to shipments in the U.S. 48
+							contiguous states; does not apply to purchases made from other
+							retailers. May not be combined with any other discount or offer
+							and does not apply to tax or shipping and handling. If you return
+							the merchandise, the value of this promotion is not refunded or
+							credited to your account. No cash value, except where prohibited
+							by law. Applies only to first purchase
+						</p>
 
 						<div
 							className="d-none p-2"
