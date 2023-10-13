@@ -122,7 +122,7 @@ export default function BlockSignUp({ className, style }) {
 							and does not apply to tax or shipping and handling. If you return
 							the merchandise, the value of this promotion is not refunded or
 							credited to your account. No cash value, except where prohibited
-							by law. Applies only to first purchase
+							by law. Applies only to first purchase.
 						</p>
 
 						<div
