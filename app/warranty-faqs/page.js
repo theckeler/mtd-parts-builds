@@ -5,7 +5,7 @@ import jsonData from "./home.json";
 import Faqs from "@/c/Faqs";
 import ResponsiveImage from "@/components/ResponsiveImage";
 
-const XTEnduroSeriesHome = () => {
+const WarrantyFaqs = () => {
 	return (
 		<div className="mtd-page">
 			{/* HERO */}
@@ -24,7 +24,7 @@ const XTEnduroSeriesHome = () => {
 			{/* copyBlock */}
 			<section className="mt-0 mb-0 text-white bg-primary">
 				<div className="container p-3 text-left text-lg-center">
-					<h1 className="h1 d-block text-white">Warranty Help FAQs</h1>
+					<h1 className="h1 d-block text-white">Warranty FAQs</h1>
 				</div>
 			</section>
 
@@ -35,4 +35,4 @@ const XTEnduroSeriesHome = () => {
 	);
 };
 
-export default XTEnduroSeriesHome;
+export default WarrantyFaqs;
