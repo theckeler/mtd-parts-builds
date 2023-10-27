@@ -12,7 +12,7 @@ const WarrantyFaqs = () => {
 			<section className="position-relative" style={{ minHeight: "400px" }}>
 				<ResponsiveImage
 					id="hero"
-					src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/31AM5HVSB56_2X26_Inteli_env02.jpg"
+					src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/MTDPARTS/warranty-faqs/13AO785T055_env@2x.jpg"
 					// webp="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/CUBCADET/snow-blowers/31AM5HVSB56_2X26_Inteli_env02.webp"
 					alt=""
 					className="h-100 w-100 position-absolute"
@@ -23,7 +23,7 @@ const WarrantyFaqs = () => {
 
 			{/* copyBlock */}
 			<section className="mt-0 mb-0 text-white bg-primary">
-				<div className="container p-3 text-left text-lg-center">
+				<div className="container p-3 text-center">
 					<h1 className="h1 d-block text-white">Warranty FAQs</h1>
 				</div>
 			</section>
