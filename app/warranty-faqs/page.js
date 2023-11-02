@@ -3,7 +3,6 @@
 import jsonData from "./home.json";
 
 import Faqs from "@/c/Faqs";
-import ResponsiveImage from "@/components/ResponsiveImage";
 
 const WarrantyFaqs = () => {
 	return (
