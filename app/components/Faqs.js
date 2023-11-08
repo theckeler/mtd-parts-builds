@@ -1,7 +1,7 @@
 "use client";
 import { Fragment } from "react";
 
-export default function Faqs({ faqs, className, id, allOpen }) {
+export default function Faqs({ faqs, className, style, id, allOpen }) {
 	let schemea = {
 		"@context": "https://schema.org",
 		"@type": "FAQPage",
@@ -22,7 +22,7 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 	const Button = ({ block }) =>
 		allOpen ? (
 			<div
-				className={`my-3 font-bold`}
+				className="my-3 font-bold"
 				style={{ fontSize: "1.6em" }}
 				dangerouslySetInnerHTML={{
 					__html: block.question,
@@ -39,11 +39,14 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 						? "rotate(0)"
 						: "rotate(45deg)";
 				}}
-				className={`text-left question cursor-pointer w-100 p-1 border-0 bg-transparent ${
-					block.className && block.className
-				}`}
-				style={{ cursor: "pointer", fontSize: "1.1em" }}>
-				<ul className="list-unstyled d-flex items-center w-100 mb-1 mb-0">
+				className={`text-left question cursor-pointer w-100 p-1 border-0 bg-transparent ${className}`}
+				style={{
+					...style,
+					cursor: "pointer",
+					fontSize: style?.fontSize ? style.fontSize : "1.1em",
+					textTransform: "none",
+				}}>
+				<ul className="list-unstyled d-flex align-items-center w-100 mb-1 mb-0">
 					<li
 						dangerouslySetInnerHTML={{
 							__html: block.question,
@@ -60,7 +63,7 @@ export default function Faqs({ faqs, className, id, allOpen }) {
 		);
 
 	return (
-		<div className={`faqs ${className}`} id={id}>
+		<div className={`faqs`} id={id}>
 			{faqs.map((block, i) => {
 				return (
 					<Fragment key={i}>
