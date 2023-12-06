@@ -28,7 +28,7 @@ export default function FindYourParts({ pageSetup }) {
             }}
           >
             <strong className="text-lg">Search by Model Number</strong>
-            <p>Search using your factory model number.</p>
+            <p className="mb-0">Search using your factory model number.</p>
           </div>
           <div className="bg-white p-2 part_num-container">
             <form
@@ -78,7 +78,9 @@ export default function FindYourParts({ pageSetup }) {
             }}
           >
             <strong className="text-lg">Search by Part Number</strong>
-            <p>Search using the part number you are looking to replace.</p>
+            <p className="mb-0">
+              Search using the part number you are looking to replace.
+            </p>
           </div>
           <div className="bg-white px-2 pt-2 pb-[34px]">
             <form
