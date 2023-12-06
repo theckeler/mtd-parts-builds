@@ -1,15 +1,16 @@
 {
-	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"@/*": ["./*"],
-			"@/c/*": ["app/components/*"],
-			"@/components/*": ["app/components/*"],
-			"@/t/*": ["./templates/*"],
-			"@/i/*": ["app/components/icons/*"],
-			"@/scss/*": ["./scss/*"]
-		}
-	},
-	"include": ["app/index.js", "app/*.js", "**/[*].js", "**/*.js"],
-	"exclude": ["node_modules"]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/c/*": ["app/components/*"],
+      "@/components/*": ["app/components/*"],
+      "@/t/*": ["./templates/*"],
+      "@/i/*": ["app/components/icons/*"],
+      "@/scss/*": ["./scss/*"],
+      "@/styles/*": ["./styles/*"]
+    }
+  },
+  "include": ["app/index.js", "app/*.js", "**/[*].js", "**/*.js"],
+  "exclude": ["node_modules"]
 }
