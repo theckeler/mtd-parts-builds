@@ -2,21 +2,13 @@
 
 import { Icons } from "./Icons";
 
-export default function FindYourParts({ pageSetup }) {
+export default function FindYourParts({ pageSetup, copy }) {
   return (
     <div className="container">
       <h2 className="text-center uppercase">
         FIND YOUR {pageSetup.brandName} PARTS HERE
       </h2>
-      <p className="text-center">
-        Find the {pageSetup.brandName} original equipment parts and accessories
-        you need to keep your lawn mower, snow blower and other outdoor power
-        equipment performing strong. These parts and accessories are designed
-        and engineered to exact standards to provide reliability, safety and top
-        performance. Protect your {pageSetup.brandName} outdoor power product
-        investment with {pageSetup.brandName} original equipment parts and
-        accessories.
-      </p>
+      <p className="text-center">{copy}</p>
 
       <ul className="grid gap-4 lg:grid-cols-2">
         <li className="h-full">

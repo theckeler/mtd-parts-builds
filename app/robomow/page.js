@@ -190,7 +190,10 @@ export default function Robomow({}) {
       </section>
 
       <section className={`${pageSetup.colors.background} py-12`}>
-        <FindYourParts pageSetup={pageSetup} />
+        <FindYourParts
+          pageSetup={pageSetup}
+          copy={`Find the ${pageSetup.brandName} original equipment parts and accessories you need to keep your lawn mower, snow blower and other outdoor power equipment performing strong. These parts and accessories are designed and engineered to exact standards to provide reliability, safety and top performance. Protect your ${pageSetup.brandName} outdoor power product investment with ${pageSetup.brandName} original equipment parts and accessories.`}
+        />
       </section>
 
       <section className="py-10">
