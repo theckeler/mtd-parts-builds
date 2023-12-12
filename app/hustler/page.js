@@ -201,19 +201,19 @@ export default function Hustler({}) {
           backgroundColor: "bg-white",
         },
       },
-      {
-        type: "PRODUCT REGISTRATION",
-        img: {
-          src: "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Library-Sites-mtdSharedLibrary/default/v1a83c633bba37b7872694f752ad9aef934522032/brand-parts-pages/13AJ606G790.jpg",
-          alt: "",
-        },
-        p: "Have your Robomow equipment registered Online now. If you don’t know your model and product serial number, call 1-855-971-2271 we will be glad to assist you.",
-        button: {
-          href: "https://www.mtdparts.com/en_US/registration.html",
-          // copy: "REGISTER YOUR PRODUCT",
-          backgroundColor: "bg-white",
-        },
-      },
+      // {
+      //   type: "PRODUCT REGISTRATION",
+      //   img: {
+      //     src: "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Library-Sites-mtdSharedLibrary/default/v1a83c633bba37b7872694f752ad9aef934522032/brand-parts-pages/13AJ606G790.jpg",
+      //     alt: "",
+      //   },
+      //   p: "Have your Robomow equipment registered Online now. If you don’t know your model and product serial number, call 1-855-971-2271 we will be glad to assist you.",
+      //   button: {
+      //     href: "https://www.mtdparts.com/en_US/registration.html",
+      //     // copy: "REGISTER YOUR PRODUCT",
+      //     backgroundColor: "bg-white",
+      //   },
+      // },
     ],
   };
 
@@ -322,7 +322,7 @@ export default function Hustler({}) {
         <div className="container">
           <h2 className="text-center">{pageSetup.supportResources.title}</h2>
 
-          <ul className="grid gap-4 lg:grid-cols-2 xl:grid-cols-3">
+          <ul className="grid gap-4 lg:grid-cols-2">
             {pageSetup.supportResources.nodes.map((node, index) => (
               <li key={index}>
                 <NodeBlocks
