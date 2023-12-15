@@ -1,7 +1,7 @@
 // import "@/scss/main.scss";
 import "@/styles/globals.css";
-import Footer from "@/t/Footer";
-import Header from "@/t/Header";
+import Footer from "@/templates/Footer";
+import Header from "@/templates/Header";
 
 export const metadata = {
   title: "MTD Parts Builds",
