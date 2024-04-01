@@ -32,7 +32,7 @@ export default function BannerAd({ className, id, style }) {
           </a>
         </div>
         <img
-          src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/MTDPARTS/cm-banner/CMST24110RB_E2.webp"
+          src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/MTDPARTS/cm-banner/c6e23d30-f6ad-4551-864b-47bbaa4a245e.webp"
           alt=""
           className="absolute w-full h-full object-cover top-0 left-0 z-0"
         />
