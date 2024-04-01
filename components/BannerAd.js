@@ -5,7 +5,7 @@ export default function BannerAd({ className, id, style }) {
     <section id="sdb-container">
       <div className="container-xxl g-0 bg-black relative my-1">
         <div className="relative z-10 p-2 grid text-center justify-center min-h-[240px] text-white bg-black/70 py-4 w-full h-full">
-          <h2 className="uppercase ">Save up tp 25% on select</h2>
+          <h2 className="uppercase ">Save up to 25% on select</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0"
