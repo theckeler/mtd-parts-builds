@@ -5,7 +5,7 @@ export default function BannerAd({ className, id, style }) {
     <section id="sdb-container">
       <div className="container-xxl g-0 bg-black relative my-1">
         <div className="relative z-10 p-2 grid text-center justify-center min-h-[240px] text-white bg-black/70 py-4 w-full h-full">
-          <h2 className="uppercase ">Save 25% on Select</h2>
+          <h2 className="uppercase ">Save up tp 25% on select</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0"
@@ -21,9 +21,7 @@ export default function BannerAd({ className, id, style }) {
               class="fill-white"
             />
           </svg>
-          <p className="text-base mt-1">
-            The sale starts on March 22, 2024, and ends on July 1, 2024.
-          </p>
+          <p className="text-base mt-1">through July 1, 2024</p>
           <a
             href="/en_US/equipment/closeout-equipment?prefn1=brand&prefv1=Craftsman"
             className="mt-1 bg-neutral-300 text-neutral-900 text-center uppercase p-2 text-lg shadow"
