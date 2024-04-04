@@ -8,13 +8,14 @@ export default function BannerAd({ className, id, style }) {
           <h2 className="uppercase mb-0">
             SAVE UP TO 25% ON SELECT CRAFTSMAN EQUIPMENT*
           </h2>
-          <p>
+          <p className="text-xl">
             *Offer valid 4/1/24-7/1/24 only on mtdparts.com , for shipments in
-            the 48 U.S. contiguous states only. Restrictions apply. Click below
-            for details.
+            the 48 U.S. contiguous states only.
           </p>
 
-          <p className="text-2xl">Now through July 1, 2024</p>
+          <p className="text-base">
+            Restrictions apply. Click below for details.
+          </p>
           <a
             href="/en_US/equipment/closeout-equipment?prefn1=brand&prefv1=Craftsman"
             className="bg-neutral-100 text-neutral-900 text-center uppercase py-2 px-6 text-lg shadow mt-2 inline-block"
