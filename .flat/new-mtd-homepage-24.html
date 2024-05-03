@@ -1,15 +1,13 @@
 <main class="mtd-home" role="main">
- 
+  <!-- css -->
   <style type="text/css">
     .site-search,
     .suggestions {
       width: 100%;
     }
-
     .nav-tabs .nav-link.active {
       background-color: #e0f4ed !important;
     }
-
     .fs-7 {
       font-size: 13.6px;
     }
@@ -82,11 +80,9 @@
       width: 100%;
       height: auto;
     }
-
     .mtd-home svg.fill-white * {
       fill: #fff;
     }
-
     .mtd-home svg.fill-black * {
       fill: #000;
     }
@@ -120,31 +116,25 @@
         border-bottom: 0 !important;
       }
     }
-
     @media (min-width: 992px) {
       .border-lg-bottom-0 {
         border-bottom: 0 !important;
       }
-
       .border-lg-right {
         border-right: 1px solid #d2d2d2 !important;
       }
-
       .border-lg-right-0 {
         border-right: 0 !important;
       }
     }
-
     @media (min-width: 1200px) {
       .border-xl-right {
         border-right: 1px solid #d2d2d2 !important;
       }
-
       .border-xl-right-0 {
         border-right: 0 !important;
       }
     }
-
     @media (min-width: 1400px) {
       .container,
       .container-lg,
@@ -155,7 +145,6 @@
         max-width: 1320px;
       }
     }
-
     .visually-hidden,
     .visually-hidden-focusable:not(:focus):not(:focus-within),
     .hero.slant-down.content-page-image,
@@ -177,8 +166,39 @@
       max-width: initial;
     }
   </style>
-  <h1 class="visually-hidden">MTD Parts</h1>
 
+  <!-- visually-hidden -->
+  <h1 class="visually-hidden">MTD Parts</h1>
+  
+
+  <section id="sdb-container">
+    <div class="container-xxl g-0 bg-black relative my-1">
+      <div
+        class="relative z-10 p-2 text-center min-h-[240px] text-white bg-black/70 py-6 w-full h-full"
+      >
+        <h2 class="uppercase mb-0">
+          SAVE UP TO 25% ON SELECT CRAFTSMAN EQUIPMENT*
+        </h2>
+        <p class="text-xl">
+          *Offer valid 4/1/24-7/1/24 only on mtdparts.com , for shipments in the
+          48 U.S. contiguous states only.
+        </p>
+        <p class="text-base">Restrictions apply. Click below for details.</p>
+        <a
+          href="/en_US/equipment/closeout-equipment?prefn1=brand&amp;prefv1=Craftsman"
+          class="bg-neutral-100 text-neutral-900 text-center uppercase py-2 px-6 text-lg shadow mt-2 inline-block"
+          >Check Out The Craftsman® sale</a
+        >
+      </div>
+      <img
+        src="https://outdoorecommassets.sbdcdn.sbd-prod.com/ASSETS/OUTDOORECOMM/MTDPARTS/cm-banner/c6e23d30-f6ad-4551-864b-47bbaa4a245e.webp"
+        alt=""
+        class="absolute w-full h-full object-cover top-0 left-0 z-0"
+      />
+    </div>
+  </section>
+
+  <!-- Parts finder/diagrams -->
   <section class="border-bottom" style="background-color: #e8e8e8;">
     <ul
       class="list-unstyled container-xxl g-0 d-flex flex-wrap mb-0 no-gutters p-0"
@@ -269,7 +289,7 @@
           Browse illustrated parts diagrams to find the part you need.
         </p>
         <a
-          class="btn w-100 p-2 d-flex align-items-center justify-content-center min-h-48 max-h-48 bg-white min-h-48"
+          class="btn w-100 p-2 d-flex align-items-center justify-content-center min-h-48 max-h-48 bg-white min-h-48 max-h-48"
           href="https://www.mtdparts.com/en_US/ari-partstream.html"
         >
           Search Diagrams
@@ -346,6 +366,7 @@
     </ul>
   </section>
 
+  <!-- SHOP BY -->
   <section>
     <div class="container-xxl g-0 d-flex flex-column py-3">
       <h2 class="text-uppercase text-center">Shop By...</h2>
@@ -1578,6 +1599,7 @@
     </div>
   </section>
 
+  <!-- SHOP WITH CONFIDENCE -->
   <section class="px-3 py-5 mt-3" style="background-color: rgb(232, 232, 232);">
     <div class="container-xxl g-0 d-flex flex-column">
       <h2 class="text-uppercase text-center">Shop With Confidence</h2>
@@ -1736,10 +1758,11 @@
     </div>
   </section>
 
-  <section class="px-3 py-3 mt-3 how-to-guides">
+  <!-- How to guides -->
+  <section class="px-3 py-3 mt-3">
     <div class="container-xxl g-0 d-flex flex-column">
       <h2 class="text-uppercase text-center">How-To Guides</h2>
-
+      <p class="mb-0 fs-7 text-center"></p>
       <ul class="d-flex flex-wrap list-unstyled mb-0 no-gutters">
         <li class="col-12 col-md-6 col-xl-3">
           <div
@@ -1941,6 +1964,7 @@
     </div>
   </section>
 
+  <!-- support links -->
   <section class="px-3 py-5 mt-3" style="background-color: rgb(232, 232, 232);">
     <div class="container-xxl g-0 d-flex flex-column">
       <h2 class="text-uppercase text-center">Support Quick Links</h2>
@@ -2088,6 +2112,7 @@
     </div>
   </section>
 
+  <!-- js -->
   <script>
     const changeTab = (e) => {
       document.querySelectorAll(".tabs .tab").forEach(function (e) {

@@ -21,7 +21,8 @@
       "@/filters/*": ["components/Filters/*"],
       "@/styles/*": ["styles/*"],
       "@/cookie/*": ["components/Cookie/*"],
-      "@/templates/*": ["templates/*"]
+      "@/templates/*": ["templates/*"],
+      "@/app/*": ["./"]
     }
   }
 }
