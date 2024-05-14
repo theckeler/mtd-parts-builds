@@ -15,7 +15,7 @@ export default function NodeBlocks({ node, pageSetup }) {
           />
         </div>
         <h2 className="text-center text-xl mt-1">{node.type}</h2>
-        <p className="line-clamp-3 mt-1 text-base">{node.p}</p>
+        <p className="mt-1 text-base">{node.p}</p>
         {node.button.copy && (
           <button
             className="block w-full py-1 px-4 font-bold"
