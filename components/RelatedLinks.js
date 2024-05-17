@@ -28,21 +28,14 @@ export default function RelatedLinks({
               <h3 className="text-center text-3xl">{relatedCats.h3}</h3>
             </li>
             <li className="ml-2">
-              <a
-                href={viewAllLink}
-                className="d-block text-center"
-              >
+              <a href={viewAllLink} className="d-block text-center">
                 <u>View All</u>
               </a>
             </li>
           </ul>
         ) : (
           relatedCats.h3 && (
-            <h3
-              id="related-links-title"
-              tag="h3"
-              className="h3 mb-1"
-            >
+            <h3 id="related-links-title" tag="h3" className="h3 mb-1">
               {relatedCats.h3}
             </h3>
           )
@@ -52,12 +45,9 @@ export default function RelatedLinks({
         <ul className="list-unstyled d-flex flex-wrap">
           {relatedCats.list.map(({ href, title }, i) => {
             return (
-              <li
-                className="pt-1 pr-1"
-                key={i}
-              >
+              <li className="pt-1 pr-1" key={i}>
                 <a
-                  className="d-inline-flex align-items-center p-1"
+                  className="d-inline-flex align-items-center p-1 text-black"
                   href={href}
                 >
                   {icon}

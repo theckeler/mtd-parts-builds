@@ -19,7 +19,7 @@ export default function Hustler({}) {
     title: "SUPPORT & RESOURCES",
     nodes: [
       {
-        type: "OPERATOR’S MANUAL",
+        type: "Operator’s Manual",
         img: {
           src:
             "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Library-Sites-mtdSharedLibrary/default/v1a83c633bba37b7872694f752ad9aef934522032/brand-parts-pages/13AC77XY093_T100_env3.jpg",
@@ -29,12 +29,12 @@ export default function Hustler({}) {
           "Enter the product code shown on the product serial number. Then select your language, click “Search,” and download your manual.",
         button: {
           href: "https://www.mtdparts.com/en_US/operatorsmanuals",
-          // copy: "FIND OPERATOR’S MANUALS",
+          copy: "FIND Operator’s Manual",
           backgroundColor: "",
         },
       },
       {
-        type: "SERVICE LOCATOR",
+        type: "Service Locator",
         img: {
           src:
             "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Library-Sites-mtdSharedLibrary/default/v1a83c633bba37b7872694f752ad9aef934522032/brand-parts-pages/13AC77XY093_T100_env3-1.jpg",
@@ -45,12 +45,12 @@ export default function Hustler({}) {
         button: {
           href:
             "https://www.mtdparts.com/en_US/servicelocator?showMap=true&horizontalView=true&isForm=true",
-          // copy: "FIND SERVICE LOCATIONS",
+          copy: "FIND SERVICE LOCATIONS",
           backgroundColor: "bg-white",
         },
       },
       {
-        type: "PRODUCT REGISTRATION",
+        type: "Product Registration",
         img: {
           src:
             "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Library-Sites-mtdSharedLibrary/default/v85c4cb4f104f7ca7419887d15884d72d8d23f088/brand-parts-pages/13AC77XY093_T100_env3-2.jpg",
@@ -61,7 +61,7 @@ export default function Hustler({}) {
         1-855-971-2271 and we will be glad to assist you.`,
         button: {
           href: "https://www.mtdparts.com/en_US/registration.html",
-          // copy: "REGISTER YOUR PRODUCT",
+          copy: "REGISTER YOUR PRODUCT",
           backgroundColor: "bg-white",
         },
       },
@@ -129,6 +129,7 @@ export default function Hustler({}) {
         copy: "Learn More",
         href:
           "https://www.craftsman.com/blogs/customer-service/CRAFTSMAN-riding-mower-oil-maintenance",
+        aria: "Click to Learn How To Perform Oil Maintenance",
       },
     },
     {
@@ -142,6 +143,7 @@ export default function Hustler({}) {
         copy: "Learn More",
         href:
           "https://www.craftsman.com/blogs/customer-service/CRAFTSMAN-riding-mower-air-filter-maintenance",
+        aria: "Click to Learn How To Perform Air Filter Maintenance",
       },
     },
     {
@@ -155,6 +157,7 @@ export default function Hustler({}) {
         copy: "Learn More",
         href:
           "https://www.craftsman.com/blogs/customer-service/craftsman-zero-turn-mower-belt-replacement",
+        aria: "Click to Learn How To Replace a Zero-Turn Mower Belt",
       },
     },
   ];
@@ -238,7 +241,7 @@ export default function Hustler({}) {
                 href: "https://www.craftsman.com/pages/warranty",
               },
               {
-                title: "Customer support",
+                title: "Customer Support",
                 href: "https://www.craftsman.com/pages/customer-support",
               },
               {
@@ -262,6 +265,7 @@ export default function Hustler({}) {
             Questions & Answers
           </h3>
           <Faqs
+            //style={{ fontSize: "2em" }}
             faqs={[
               {
                 question: "What is the best CRAFTSMAN® lawn mower for me?",
@@ -271,12 +275,12 @@ export default function Hustler({}) {
               {
                 question: "What is the best CRAFTSMAN® snow blower for me?",
                 className: "font-bold",
-                answer: `When selecting a snow blower, there are several considerations to keep in mind including snowfall amounts and frequency, terrain, and the size of the area to be cleared. To find the snow blower best suited for your yard, check out our <a href="https://www.craftsman.com/pages/mower-finder">Snow Blower Finder</a>. To learn more about considerations when selecting a snow blower, check out our snow blower <a href="https://www.craftsman.com/blogs/news/snow-blowers-frequently-asked-questions">FAQs</a>. Shop all CRAFTSMAN snow blowers <a href="https://www.craftsman.com/collections/snow-blowers?_pos=2&_psq=snow+b&_ss=e&_v=1.0">HERE</a>.`,
+                answer: `When selecting a snow blower, there are several considerations to keep in mind including snowfall amounts and frequency, terrain, and the size of the area to be cleared. To find the snow blower best suited for your yard, check out our <a href="https://www.craftsman.com/pages/snow-blower-finder">Snow Blower Finder</a>. To learn more about considerations when selecting a snow blower, check out our snow blower <a href="https://www.craftsman.com/blogs/news/snow-blowers-frequently-asked-questions">FAQs</a>. Shop all CRAFTSMAN snow blowers <a href="https://www.craftsman.com/collections/snow-blowers?_pos=2&_psq=snow+b&_ss=e&_v=1.0">HERE</a>.`,
               },
               {
                 question: "How do I register my CRAFTSMAN® Equipment?",
                 className: "font-bold",
-                answer: `To register your CRAFTSMAN equipment, you need to create a CRAFTSMAN® Club account <a href="https://www.craftsman.com/account/login?destination=%2Fnode%2F631">HERE</a>.`,
+                answer: `To register your CRAFTSMAN equipment, you need to create a CRAFTSMAN® Club account <a href=" https://www.craftsman.com/account/register">HERE</a>.`,
               },
             ]}
             id="craftsman-faqs"

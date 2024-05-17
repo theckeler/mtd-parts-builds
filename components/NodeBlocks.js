@@ -6,7 +6,7 @@ export default function NodeBlocks({ node, pageSetup }) {
       href={node.button.href}
       className="text-black font-normal hover:no-underline"
     >
-      <div className="bg-white p-2">
+      <div className="bg-white p-2 h-full flex flex-col">
         <div className="h-[200px] relative">
           <img
             src={node.img.src}
@@ -18,11 +18,12 @@ export default function NodeBlocks({ node, pageSetup }) {
         <p className="mt-1 text-base">{node.p}</p>
         {node.button.copy && (
           <button
-            className="block w-full py-1 px-4 font-bold"
+            className="mt-auto block w-full py-1 px-4 font-bold"
             style={{
               backgroundColor: pageSetup.colors.primary,
               color: pageSetup.colors.fontOnPrimary,
             }}
+            aria-label={node.button.aria}
           >
             {node.button.copy}
           </button>
