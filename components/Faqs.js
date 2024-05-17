@@ -47,7 +47,7 @@ export default function Faqs({ faqs, className, style, id, allOpen }) {
           textTransform: "none",
         }}
       >
-        <ul className="list-unstyled d-flex align-items-center w-100 mb-1 mb-0">
+        <ul className="list-unstyled d-flex align-items-center w-100 mb-1">
           <li
             dangerouslySetInnerHTML={{
               __html: block.question,
