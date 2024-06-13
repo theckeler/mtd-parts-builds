@@ -18,7 +18,7 @@ export default function NodeBlocks({ node, pageSetup }) {
         <p className="mt-1 text-base">{node.p}</p>
         {node.button.copy && (
           <button
-            className="mt-auto block w-full py-1 px-4 font-bold"
+            className="mt-auto block w-full py-1 px-4 font-bold capitalize"
             style={{
               backgroundColor: pageSetup.colors.primary,
               color: pageSetup.colors.fontOnPrimary,

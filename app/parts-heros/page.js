@@ -156,14 +156,18 @@ export default function PartsHero({}) {
     <div id="sdb-container">
       {ccHeros.map((hero, i) => (
         <div className="container" key={i}>
-          <ul className="grid grid-cols-[400px_1fr]">
+          <ul className="lg:grid lg:grid-cols-[400px_1fr]">
+            <li className="relative min-h-[300px]">
+              <img
+                src={base + hero.src}
+                alt=""
+                className="absolute w-full h-full object-cover"
+              />
+            </li>
             <li className="bg-[#ffc20f] flex flex-col items-center p-4 h-full justify-center">
               <CCLogo className="w-44" />
               <h2 className="w-full mt-2">{hero.title}</h2>
               <p className="mt-2 text-xl">{hero.copy}</p>
-            </li>
-            <li className="">
-              <img src={base + hero.src} alt="" />
             </li>
           </ul>
         </div>

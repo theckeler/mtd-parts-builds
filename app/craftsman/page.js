@@ -29,7 +29,7 @@ export default function Hustler({}) {
           "Enter the product code shown on the product serial number. Then select your language, click “Search,” and download your manual.",
         button: {
           href: "https://www.mtdparts.com/en_US/operatorsmanuals",
-          copy: "FIND Operator’s Manual",
+          copy: "Find Operator’s Manual",
           backgroundColor: "",
         },
       },
@@ -45,7 +45,7 @@ export default function Hustler({}) {
         button: {
           href:
             "https://www.mtdparts.com/en_US/servicelocator?showMap=true&horizontalView=true&isForm=true",
-          copy: "FIND SERVICE LOCATIONS",
+          copy: "Find Service Locations",
           backgroundColor: "bg-white",
         },
       },
@@ -56,12 +56,12 @@ export default function Hustler({}) {
             "https://staging-na01-mtd.demandware.net/on/demandware.static/-/Library-Sites-mtdSharedLibrary/default/v85c4cb4f104f7ca7419887d15884d72d8d23f088/brand-parts-pages/13AC77XY093_T100_env3-2.jpg",
           alt: "",
         },
-        p: `Have your CRAFTSMAN equipment registered Online now. If you
+        p: `Have your CRAFTSMAN equipment registered online now. If you
         don’t know your model and product serial number, call
         1-855-971-2271 and we will be glad to assist you.`,
         button: {
-          href: "https://www.mtdparts.com/en_US/registration.html",
-          copy: "REGISTER YOUR PRODUCT",
+          href: "https://www.craftsman.com/account/register",
+          copy: "Regiser Your Product",
           backgroundColor: "bg-white",
         },
       },
@@ -73,7 +73,7 @@ export default function Hustler({}) {
           alt:
             "Man in a workshop using a Craftsman drill on a piece of wood, with a red craftsman toolbox in the background.",
         },
-        p: `Your one-stop-shop for project inspiration, tool guides, routine to pro-level maintenance tips, NASCAR racecar wraps, and real stories from the CRAFTSMAN® community.`,
+        p: `Your one-stop-shop for project inspiration, tool guides, routine to pro-level maintenance tips, and real stories from the CRAFTSMAN® community.`,
         button: {
           href: "https://www.craftsman.com/pages/craftsman-fan-zone",
           copy: "Browse the Fan Zone",
